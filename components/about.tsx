@@ -1,9 +1,8 @@
 "use client";
 
-import React from "react";
-import SectionHeading from "./section-heading";
-import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
+import { motion } from "framer-motion";
+import SectionHeading from "./section-heading";
 
 export default function About() {
   const { ref } = useSectionInView("About");
@@ -19,30 +18,25 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
+        Armed with an <span className="font-medium">BCA</span> degree in 2017,
+        With 1.6 years in IT recruitment, I bring valuable insights to the tech
+        world. I took a detour into full-stack web development after a coding
+        bootcamp in coding Ninjas. Proficient in{" "}
         <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
+          {" "}
+          React, Next.js, Node.js, MongoDB, TypeScript, and Prisma{" "}
         </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        Since Nov 2021, I've been excelling as a{" "}
+        <span className="font-medium">React Node developer </span> at Team
+        Computers.com. A well-rounded individual, I balance tech expertise with
+        a passion for continuous learning, making me an ideal fit for your team.
+        Let's shape the future together!
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+        <span className="italic">When I'm not coding</span>, I enjoy cooking
+        reading books, listing tech and self-help poadcast for shaping myself in
+        better way. I also enjoy{" "}
       </p>
     </motion.section>
   );

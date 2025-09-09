@@ -1,6 +1,5 @@
-import edittor from "@/public/eddittor.png";
 import streamline from "@/public/streamline.png";
-import trust from "@/public/trust.png";
+import unicraft from "@/public/unicraft.png";
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
@@ -37,7 +36,7 @@ export const experiencesData = [
     title: "IT Recruiter",
     location: "Noida, IN",
     description:
-      "I worked here as a IT Requiter with thrive passion of learning things and improving understanding about tech industry",
+      "I worked as an IT Recruiter, gaining insights into the tech industry and improving my understanding of technical roles.",
     icon: React.createElement(LuGraduationCap),
     date: "2019-2021",
   },
@@ -45,9 +44,17 @@ export const experiencesData = [
     title: "Front-End Developer",
     location: "Delhi, IN",
     description:
-      "I am working as a React developer from last 2.4 years in team computers. I also upskilled to the full stack. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB, Node. I'm open to full-time opportunities.",
+      "I worked as a React developer for 2.4 years at Team Computers, upskilling to full stack. My stack included React, Next.js, TypeScript, Tailwind, Prisma, MongoDB, and Node.",
     icon: React.createElement(CgWorkAlt),
-    date: "2021 - current",
+    date: "2021 - 2024",
+  },
+  {
+    title: "Full Stack Developer",
+    location: "Pune, IN",
+    description:
+      "I am working as a Full Stack Developer from April 2024. My stack included React, Next.js, TypeScript, Tailwind, Prisma, Python for ETL scripts, and Node.",
+    icon: React.createElement(CgWorkAlt),
+    date: "April2024 - Current",
   },
 ] as const;
 
@@ -55,11 +62,12 @@ export const projectsData = [
   {
     title: "Streamline",
     description:
-      "I am working as a full-stack developer on this own project from last 1 year. Users can create Project and tackle task in realtime, managing notes.",
+      "I am working as a full-stack developer on this own project from last 1 year. Users can create Project and tackle task in realtime, managing notes, assigning issues",
     tags: [
       "React",
       "Next.js",
       "MongoDB",
+      "Tanstack Query",
       "Typescript",
       "Prisma",
       "express",
@@ -69,28 +77,18 @@ export const projectsData = [
     imageUrl: streamline,
   },
   {
-    title: "edittor",
+    title: "Unicraft Tech",
     description:
-      "App with realtime integrations of notifications and todos with firebase services",
-    tags: ["React", "TypeScript", "Next.js", "Redux", "firebase"],
-    imageUrl: edittor,
-  },
-  {
-    title: "#Trust",
-    description:
-      "A it company web lending for quick details of the organization. It has landing page, their testimonials, and team details",
-    tags: ["html", "bootstrap", "scss", "css", "javascript"],
-    imageUrl: trust,
+      "Freelancing project: Collaborated with clients to deliver an end-to-end company portal using Next.js. Built a fully responsive UI for all devices, optimized SEO with SSR/SSG, integrated Vercel Analytics, and enabled real-time content updates via Google Sheets and server actions.",
+    tags: ["Next.js", "React", "Vercel", "Google Sheets", "TypeScript", "SEO"],
+    imageUrl: unicraft,
   },
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "SCSS",
   "JavaScript",
-  "React Query",
   "TypeScript",
+  "React Query",
   "React",
   "Next.js",
   "Node.js",
@@ -100,9 +98,13 @@ export const skillsData = [
   "Node",
   "Tailwind",
   "Prisma",
+  "Drizzle",
+  "Python",
   "MongoDB",
   "Redux",
   "Express",
   "PostgreSQL",
   "Framer Motion",
+  "Amazon Amplify",
+  "Vercel AI SDK",
 ] as const;
